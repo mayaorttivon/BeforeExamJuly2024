@@ -18,6 +18,8 @@ public abstract class Bussiness {
 
     @Override
     public boolean equals(Object obj) {
+        if( !(obj instanceof Bussiness) )
+            return false;
         return licenseNum==((Bussiness)obj).licenseNum;
     }
     //this can also be done by abstract method

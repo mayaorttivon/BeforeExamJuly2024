@@ -15,5 +15,15 @@ public class Main {
         mol2.addAtom(new Element("Oxygen", 8, "O", 16), 6);
         System.out.println(mol2);
         System.out.println(mol2.atoms());
+
+        }
+
+        public void checkDates(Date date, Date date2)
+        {
+            Date date3 = date;
+            if( date.equals(date2))
+            {
+                System.out.print("Dates are equal: " + date + " - " + date2);
+            }
         }
     }
